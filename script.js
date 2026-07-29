@@ -41,23 +41,23 @@ function makeSocialsBar() {
 
     newSocialBar.innerHTML = String.raw`<a href='https://www.instagram.com/comedywarwick/'><img src='/images/instagram-logo.png'>comedywarwick</a>
     <span class='spacer'></span>
-    <a href='https://linktr.ee/comedy_at_warwick'><img src='/images/linktree-white-icon.webp'>comedywarwick</a>
+    <a href='https://linktr.ee/comedy_at_warwick'><img src='images/linktree-white-icon.webp'>comedywarwick</a>
     <span class='spacer'></span>
-    <a href='https://www.youtube.com/@warwickcomedysociety4800'><img src='/images/youtube-logo.webp' style='border-radius: 5px'>Warwick Comedy Society</a>
+    <a href='https://www.youtube.com/@warwickcomedysociety4800'><img src='images/youtube-logo.webp' style='border-radius: 5px'>Warwick Comedy Society</a>
     <span class='spacer'></span>
-    <a href='https://www.warwicksu.com/societies-sports/societies/comedy/'><img src='/images/su-logo-header.png' style='border-radius: 5px'>SU Page</a>
+    <a href='https://www.warwicksu.com/societies-sports/societies/comedy/'><img src='images/su-logo-header.png' style='border-radius: 5px'>SU Page</a>
     <br><br>
-    <a href='/index.html'>Home</a>
+    <a href='index.html'>Home</a>
     <span class='spacer'></span>
-    <a href='/exec.html'>Exec</a>
+    <a href='exec.html'>Exec</a>
     <span class='spacer'></span>
-    <a href='/sketches.html'>Sketches</a>
+    <a href='sketches.html'>Sketches</a>
     <span class='spacer'></span>
-    <a href='/gallery.html'>Gallery</a>
+    <a href='gallery.html'>Gallery</a>
     <span class='spacer'></span>
-    <a href='/newsletter.html'>Newsletter</a>
+    <a href='newsletter.html'>Newsletter</a>
     <span class='spacer'></span>
-    <a href='/contact.html'>Contact Us</a>
+    <a href='contact.html'>Contact Us</a>
     <span class='spacer'></span>
     `;
 
