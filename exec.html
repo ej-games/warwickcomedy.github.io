@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="/style.css" rel="stylesheet">
+        <script src="/script.js"></script>
+
+        <script>
+
+            let exec = [];
+
+            async function populate() {
+                await fetch("/exec.json")
+                    .then(response => response.json())
+                    .then(data => exec = data)
+                    .catch(error => console.error(error));
+
+                for(var i = 0; i < exec.length; i ++) {
+                    console.log(exec[i].name);
+
+                    var newCard = document.createElement("div");
+                    newCard.classList.add("card");
+
+                    newCard.innerHTML = String.raw`<h3>${exec[i].name}</h3>
+                    <img class="right-image" src="${exec[i].photo}">
+                    <big><b>${exec[i].role}</b></big>
+                    <br><i>${exec[i].degree}</i>
+                    <small-space></small-space>
+                    <q>${exec[i].quote}</q>
+                    <br><br>
+                    <b>${exec[i].description}</b>
+                    `;
+
+                    document.getElementById("exec-cards").appendChild(newCard);
+
+                }
+            }
+
+        </script>
+    </head>
+
+    <body onload="onLoad(); populate()">
+
+        <div class="mainParagraph">
+            
+            <h2 class="leftTilt">Our Exec Team</h2>
+
+            <div class="cards" id="exec-cards">
+
+            </div>
+
+        </div>
+
+        <div style="clear: both;"></div>
+        <space></space>
+
+
+    </body>
+</html>

@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Alex Munro",
+        "role": "President",
+        "photo": "/images/president.jpg",
+        "degree": "4th Year Maths",
+        "quote": "I've never got a blowjob without thinking of Dan Villano",
+        "description": "Oversees the general running of the society"
+    },
+    {
+        "name": "Dan Villano",
+        "role": "Welfare Officer",
+        "photo": "/images/welfare-officer.jpg",
+        "degree": "3rd Year Counselling",
+        "quote": "I want to be a 50 year old woman going through menopause",
+        "description": "Is a welfare officer"
+    },
+    {
+        "name": "Pratiyush Prakkashkumar",
+        "role": "Treasurer",
+        "photo": "/images/treasurer.jpg",
+        "degree": "2nd Year Electrical and Electronic Engineering",
+        "quote": "I'm dried out 24/7",
+        "description": "Sorts out the money and stuff... scary"
+    },
+    {
+        "name": "Theo Holland",
+        "role": "Sketch Officer",
+        "photo": "/images/sketch-officer.jpg",
+        "degree": "2nd Year Loser Degree",
+        "quote": "I think all of mine are little girls",
+        "description": "Runs the weekly sketch sessions... and more"
+    },
+    {
+        "name": "Poppy Cregan",
+        "role": "Standup Officer",
+        "photo": "/images/standup-officer.jpg",
+        "degree": "2nd Year Even Loserer Degree",
+        "quote": "I'm so homophobic you're right",
+        "description": "Runs the weekly standup sessions... and more"
+    },
+    {
+        "name": "Sonja Lundh",
+        "role": "Publicity Officer",
+        "photo": "/images/publicity.jpg",
+        "degree": "4th Year Discrete Maths",
+        "quote": "Maths but more discrete I guess",
+        "description": "In charge of the society's social media and newsletter"
+    },
+    {
+        "name": "Blaise Shah",
+        "role": "Secretary",
+        "photo": "/images/secretary.jpg",
+        "degree": "2nd Year Classics with Ancient History",
+        "quote": "I don't lactate",
+        "description": "Is really boring"
+    },
+    {
+        "name": "Ewan Johnstone",
+        "role": "Social Secretary",
+        "photo": "/images/social-secretary.jpg",
+        "degree": "2nd Year Computer Systems Engineering",
+        "quote": "I'm inside a twelve year old right now",
+        "description": "Runs unbelievably fun events alongside sketch & standup sessions"
+    },
+    {
+        "name": "Jonathan Lamb",
+        "role": "Live Events Officer",
+        "photo": "/images/live-events.jpg",
+        "degree": "2nd Year Something",
+        "quote": "I don't really exist",
+        "description": "Works with external venues to plan shows"
+    }
+]

@@ -1,0 +1,207 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root {
+    --background1: #261621;
+    --background2: #382529;
+    --background3: #39181f;
+    --item1: #a97b19;
+    --item2: #d52941;
+    --text1: #f13759;
+    --text2: #d8d0ce;
+    --titleFont: "Inter Tight", sans-serif;
+    --bodyFont: "Inter", sans-serif;
+}
+
+html {
+    background: linear-gradient(var(--background2), var(--background1));
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: var(--titleFont);
+    font-weight: 900;
+    font-size: 7em;
+    text-align: center;
+    color: var(--text1);
+    margin-bottom: 0px;
+    margin-top: 10px;
+    letter-spacing: -3px;
+}
+
+h2 {
+    display: table;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 2em;
+    font-weight: 900;
+    font-family: var(--titleFont);
+    position: relative;
+    left: 50%;
+}
+
+
+
+h2.leftTilt {
+    background-color: var(--item2);
+    transform: rotate(-5deg) translateX(-50%);
+    transition: transform 0.2s;
+}
+h2.leftTilt:hover {
+    transform: rotate(-2deg) translateX(-50%);
+}
+
+
+
+h2.rightTilt {
+    background-color: var(--item1);
+    transform: rotate(5deg) translateX(-50%);
+    transition: transform 0.2s;
+}
+h2.rightTilt:hover {
+    transform: rotate(2deg) translateX(-50%);
+}
+
+
+h3 {
+    font-family: var(--titleFont);
+    font-weight: 400;
+}
+
+body {
+    font-family: var(--bodyFont);
+    font-weight: 400;
+    color: var(--text2);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.mainParagraph {
+    margin: 0 10%;
+    font-size: 1.1em;
+}
+
+.left-half {
+    width: 50%;
+    float: left;
+
+    text-align: justify;
+}
+
+.right-half {
+    width: 50%;
+    float: right;
+
+    text-align: justify;
+}
+
+space {
+    min-height: 5em;
+    display: block;
+}
+small-space {
+    min-height: 2.5em;
+    display: block;
+}
+
+.full-width-image {
+    width:100%;
+}
+
+#socials-bar {
+    background-color: #00000066;
+    padding: 0.7em;
+    margin: 0;
+    text-align: center;
+    box-shadow: 0 0 5px 5px #00000066;
+    font-size: 1.2em;
+}
+
+#socials-bar a {
+    color: var(--text2);
+    text-decoration: none;
+}
+
+#socials-bar a:hover {
+    opacity: 0.7;
+}
+
+#socials-bar img {
+    vertical-align: middle;
+    height: 1em;
+    padding: 0.1em;
+    margin-right: 0.2em;
+}
+#socials-bar .spacer::after {
+    content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+}
+
+
+#navbar {
+    background-color: #00000066;
+    padding: 0.7em;
+    margin: 1em 0 0 0;
+    text-align: center;
+    box-shadow: 0 0 5px 5px #00000066;
+    font-size: 1.2em;
+}
+
+#navbar a {
+    color: var(--text2);
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    opacity: 0.7;
+}
+
+#navbar img {
+    vertical-align: middle;
+    height: 1em;
+    padding: 0.1em;
+    margin-right: 0.2em;
+}
+
+#navbar .spacer::after {
+    content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+}
+
+
+
+a {
+    color: var(--item1);
+}
+a:hover {
+    opacity: 0.7;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards .card {
+    background-color: var(--background3);
+    width: 42%;
+    float: left;
+    margin: 1%;
+    border-radius: 0.8em;
+    box-shadow: 0 0 15px 0px black;
+    padding: 1.5em;
+}
+
+.cards .card h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.4em;
+}
+
+.cards .card .right-image {
+    float: right;
+    width: 45%;
+    padding: 2%;
+    border-radius: 50%;
+}
