@@ -39,7 +39,7 @@ function makeSocialsBar() {
 
     newSocialBar.id = "socials-bar";
 
-    newSocialBar.innerHTML = String.raw`<a href='https://www.instagram.com/comedywarwick/'><img src='/images/instagram-logo.png'>comedywarwick</a>
+    newSocialBar.innerHTML = String.raw`<a href='https://www.instagram.com/comedywarwick/'><img src='images/instagram-logo.png'>comedywarwick</a>
     <span class='spacer'></span>
     <a href='https://linktr.ee/comedy_at_warwick'><img src='images/linktree-white-icon.webp'>comedywarwick</a>
     <span class='spacer'></span>
