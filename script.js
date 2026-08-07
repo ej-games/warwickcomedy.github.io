@@ -31,6 +31,17 @@ function onLoad() {
 
     document.body.style.opacity = 1;
 
+    window.addEventListener("scroll", function() {
+        let proportion = this.scrollY / (this.document.body.offsetHeight - this.window.innerHeight);
+        if(proportion > 0.5) {
+            this.document.documentElement.style.backgroundColor = "var(--background1)";
+        }
+        else {
+            this.document.documentElement.style.backgroundColor = "var(--background2)";
+        }
+        console.log(proportion);
+    });
+
 }
 
 function makeSocialsBar() {

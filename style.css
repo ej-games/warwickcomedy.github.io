@@ -16,6 +16,7 @@
 
 html {
     background: linear-gradient(var(--background2), var(--background1));
+    background-color: var(--background2);
     background-attachment: fixed;
 }
 
@@ -207,4 +208,13 @@ a:hover {
     width: 45%;
     padding: 2%;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 1080px) {
+    .mainParagraph {
+        margin: 0 3%;
+    }
+    .cards .card {
+        width: 100%;
+    }
 }
