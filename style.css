@@ -40,6 +40,8 @@ h2 {
     font-family: var(--titleFont);
     position: relative;
     left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--item2);
 }
 
 
@@ -68,6 +70,7 @@ h2.rightTilt:hover {
 h3 {
     font-family: var(--titleFont);
     font-weight: 400;
+    font-size: 1.7em;
 }
 
 body {

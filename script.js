@@ -47,18 +47,22 @@ function makeSocialsBar() {
     <span class='spacer'></span>
     <a href='https://www.warwicksu.com/societies-sports/societies/comedy/'><img src='images/su-logo-header.png' style='border-radius: 5px'>SU Page</a>
     <br><br>
+    <b><a href='fringe2026.html' style="color: var(--item2);">Fringe 2026</a></b>
+    <span class='spacer'></span>
     <a href='index.html'>Home</a>
     <span class='spacer'></span>
     <a href='exec.html'>Exec</a>
     <span class='spacer'></span>
     <a href='sketches.html'>Sketches</a>
     <span class='spacer'></span>
+    <!--
     <a href='gallery.html'>Gallery</a>
     <span class='spacer'></span>
     <a href='newsletter.html'>Newsletter</a>
     <span class='spacer'></span>
     <a href='contact.html'>Contact Us</a>
     <span class='spacer'></span>
+    -->
     `;
 
     const names = {
@@ -66,7 +70,9 @@ function makeSocialsBar() {
         "exec": "exec",
         "sketches": "sketches",
         "gallery": "gallery",
-        "contact": "contact us"
+        "contact": "contact us",
+        "": "home",
+        "fringe2026": "fringe"
     }
 
     var currentPage = window.location.pathname.substring(1).replace(".html", "").replace("-", " ");

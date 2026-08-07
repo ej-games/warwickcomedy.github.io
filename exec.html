@@ -3,6 +3,7 @@
     <head>
         <link href="style.css" rel="stylesheet">
         <script src="script.js"></script>
+        <title>Meet the Exec - Warwick Comedy Society</title>
 
         <script>
 
@@ -23,15 +24,13 @@
                     newCard.innerHTML = String.raw`<h3>${exec[i].name}</h3>
                     <img class="right-image" src="${exec[i].photo}">
                     <big><b>${exec[i].role}</b></big>
+                    <br>
                     <br><i>${exec[i].degree}</i>
                     <small-space></small-space>
-                    <q>${exec[i].quote}</q>
-                    <br><br>
                     <b>${exec[i].description}</b>
                     `;
 
                     document.getElementById("exec-cards").appendChild(newCard);
-
                 }
             }
 
