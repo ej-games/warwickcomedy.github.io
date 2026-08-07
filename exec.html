@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="style.css" rel="stylesheet">
-        <script src="script.js"></script>
+        <link href="/style.css" rel="stylesheet">
+        <script src="/script.js"></script>
         <title>Meet the Exec - Warwick Comedy Society</title>
 
         <script>
@@ -10,7 +10,7 @@
             let exec = [];
 
             async function populate() {
-                await fetch("exec.json")
+                await fetch("/exec.json")
                     .then(response => response.json())
                     .then(data => exec = data)
                     .catch(error => console.error(error));

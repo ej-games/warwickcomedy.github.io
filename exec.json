@@ -2,7 +2,7 @@
     {
         "name": "Alex Munro",
         "role": "President",
-        "photo": "images/president.jpg",
+        "photo": "/images/president.jpg",
         "degree": "4th Year Maths",
         "quote": "I've never got a blowjob without thinking of Dan Villano",
         "description": "Does everything that everyone else can't be bothered to do"
@@ -10,7 +10,7 @@
     {
         "name": "Dan Villano",
         "role": "Welfare Officer",
-        "photo": "images/welfare-officer.jpg",
+        "photo": "/images/welfare-officer.jpg",
         "degree": "3rd Year Counselling",
         "quote": "I want to be a 50 year old woman going through menopause",
         "description": "Helps people sometimes but usually hates on everyone"
@@ -18,7 +18,7 @@
     {
         "name": "Pratiyush Prakkashkumar",
         "role": "Treasurer",
-        "photo": "images/treasurer.jpg",
+        "photo": "/images/treasurer.jpg",
         "degree": "2nd Year Electrical Engineering",
         "quote": "I'm dried out 24/7",
         "description": "Sorts out the money and stuff... scary"
@@ -26,7 +26,7 @@
     {
         "name": "Theo Holland",
         "role": "Sketch Officer",
-        "photo": "images/sketch-officer.jpg",
+        "photo": "/images/sketch-officer.jpg",
         "degree": "2nd Year History and Philosophy",
         "quote": "I think all of mine are little girls",
         "description": "Runs the weekly sketch sessions... and the sketch shows that we all love"
@@ -34,7 +34,7 @@
     {
         "name": "Poppy Cregan",
         "role": "Standup Officer",
-        "photo": "images/standup-officer.jpg",
+        "photo": "/images/standup-officer.jpg",
         "degree": "2nd Year English",
         "quote": "I'm so homophobic you're right",
         "description": "Runs the weekly standup sessions... and every open mic (you can hold her to this)"
@@ -42,7 +42,7 @@
     {
         "name": "Sonja Lundh",
         "role": "Publicity Officer",
-        "photo": "images/publicity.jpg",
+        "photo": "/images/publicity.jpg",
         "degree": "4th Year Discrete Maths",
         "quote": "Maths but more discrete I guess",
         "description": "In charge of the society's epic social media accounts, including The Giggle™"
@@ -50,7 +50,7 @@
     {
         "name": "Blaise Shah",
         "role": "Secretary",
-        "photo": "images/secretary.jpg",
+        "photo": "/images/secretary.jpg",
         "degree": "2nd Year Classics",
         "quote": "I don't lactate",
         "description": "Writes minutes I guess, you can ask him if you want"
@@ -58,7 +58,7 @@
     {
         "name": "Ewan Johnstone",
         "role": "Social Secretary",
-        "photo": "images/social-secretary.jpg",
+        "photo": "/images/social-secretary.jpg",
         "degree": "2nd Year Computer Systems Engineering",
         "quote": "I'm inside a twelve year old right now",
         "description": "Runs unbelievably fun events alongside the regular sketch & standup sessions"
@@ -66,7 +66,7 @@
     {
         "name": "Jonathan Lamb",
         "role": "Live Events Officer",
-        "photo": "images/live-events.jpg",
+        "photo": "/images/live-events.jpg",
         "degree": "2nd Year Economics",
         "quote": "I don't really exist",
         "description": "Works with external venues to plan shows"

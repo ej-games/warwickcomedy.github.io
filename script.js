@@ -39,28 +39,28 @@ function makeSocialsBar() {
 
     newSocialBar.id = "socials-bar";
 
-    newSocialBar.innerHTML = String.raw`<a href='https://www.instagram.com/comedywarwick/'><img src='images/instagram-logo.png'>comedywarwick</a>
+    newSocialBar.innerHTML = String.raw`<a href='https://www.instagram.com/comedywarwick/'><img src='/images/instagram-logo.png'>comedywarwick</a>
     <span class='spacer'></span>
-    <a href='https://linktr.ee/comedy_at_warwick'><img src='images/linktree-white-icon.webp'>comedywarwick</a>
+    <a href='https://linktr.ee/comedy_at_warwick'><img src='/images/linktree-white-icon.webp'>comedywarwick</a>
     <span class='spacer'></span>
-    <a href='https://www.youtube.com/@warwickcomedysociety4800'><img src='images/youtube-logo.webp' style='border-radius: 5px'>Warwick Comedy Society</a>
+    <a href='https://www.youtube.com/@warwickcomedysociety4800'><img src='/images/youtube-logo.webp' style='border-radius: 5px'>Warwick Comedy Society</a>
     <span class='spacer'></span>
-    <a href='https://www.warwicksu.com/societies-sports/societies/comedy/'><img src='images/su-logo-header.png' style='border-radius: 5px'>SU Page</a>
+    <a href='https://www.warwicksu.com/societies-sports/societies/comedy/'><img src='/images/su-logo-header.png' style='border-radius: 5px'>SU Page</a>
     <br><br>
-    <b><a href='fringe2026.html' style="color: var(--item2);">Fringe 2026</a></b>
+    <b><a href='/fringe2026' style="color: var(--item2);">Fringe 2026</a></b>
     <span class='spacer'></span>
-    <a href='index.html'>Home</a>
+    <a href='/index'>Home</a>
     <span class='spacer'></span>
-    <a href='exec.html'>Exec</a>
+    <a href='/exec'>Exec</a>
     <span class='spacer'></span>
-    <a href='sketches.html'>Sketches</a>
+    <a href='/sketches'>Sketches</a>
     <span class='spacer'></span>
     <!--
-    <a href='gallery.html'>Gallery</a>
+    <a href='/gallery'>Gallery</a>
     <span class='spacer'></span>
-    <a href='newsletter.html'>Newsletter</a>
+    <a href='/newsletter'>Newsletter</a>
     <span class='spacer'></span>
-    <a href='contact.html'>Contact Us</a>
+    <a href='/contact'>Contact Us</a>
     <span class='spacer'></span>
     -->
     `;
